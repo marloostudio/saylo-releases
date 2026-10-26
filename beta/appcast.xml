@@ -3,13 +3,24 @@
     <channel>
         <title>Saylo</title>
         <item>
-            <title>0.4.3</title>
-            <pubDate>Mon, 26 Oct 2026 15:35:50 -0400</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
+            <title>0.4.4</title>
+            <pubDate>Mon, 26 Oct 2026 15:52:50 -0400</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.4.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Saylo 0.4.3
+            <description sparkle:format="markdown"><![CDATA[# Saylo 0.4.4
+
+## Live editor continuity
+- Accept an empty editor’s paragraph marker disappearing after the first paste, only when the full inserted draft and caret match exactly. This prevents a false read-back mismatch from stopping the next words.
+- Preserve actual newlines when the editor keeps them, and never accept missing real document context as empty-editor normalization.
+
+## Local diagnostic traces
+- Per-dictation session IDs and relative timings follow recording, queued recognition, preview sizes, replacement ranges, caret positions, dispatch and confirmation.
+- Terminal interruptions distinguish physical input, window/focus, secure input and recognition changes.
+- Export Diagnostics includes these numeric operational traces. Dictated words, clipboard content and audio are never logged or uploaded automatically.
+
+# Saylo 0.4.3
 
 ## Beta update validation
 - Publishes the signed beta update offered to the 0.4.2 installer so you can test Check for Updates, download, installation and relaunch.
@@ -100,7 +111,7 @@
 ## Release status
 The updater requires a published HTTPS update feed, an update verification key, and signed release archives. Mac App Store builds use Apple's update mechanism instead.
 ]]></description>
-            <enclosure url="https://github.com/marloostudio/saylo-releases/releases/download/v0.4.3-beta/Saylo-0.4.3-8.zip" length="11092458" type="application/octet-stream" sparkle:edSignature="99Osu9TKepAU6HqqhUrM6b/Y3oWKSI/+rbyXw8vg5nOM8bW7N9dVa2RY9l5NALF5Gh4/Ihen9NQx4k4OR5KTDQ=="/>
+            <enclosure url="https://github.com/marloostudio/saylo-releases/releases/download/v0.4.4-beta/Saylo-0.4.4-9.zip" length="11105416" type="application/octet-stream" sparkle:edSignature="bcSJXrztBDF5kVdXCEgMKeLtdFTFk2HFx0ZD+JPR1JJ97QRtOsjiAukk/oodkmW5DOa51yWV4WFa1hKNXTAdCA=="/>
         </item>
     </channel>
 </rss>
