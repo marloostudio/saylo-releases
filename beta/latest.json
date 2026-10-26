@@ -1,18 +1,16 @@
 {
-  "version": "0.4.4",
-  "build": 9,
-  "publishedAt": "2026-10-26T19:54:07Z",
-  "downloadURL": "https://github.com/marloostudio/saylo-releases/releases/download/v0.4.4-beta/Saylo-0.4.4-9.dmg",
-  "sizeBytes": 11016731,
-  "sha256": "0a1798de4adecc76a140483931eddd3c797ec3a69aa947f827bcba63bb1b9d29",
+  "version": "0.4.5",
+  "build": 10,
+  "publishedAt": "2026-10-26T21:00:10Z",
+  "downloadURL": "https://github.com/marloostudio/saylo-releases/releases/download/v0.4.5-beta/Saylo.dmg",
+  "sizeBytes": 11075166,
+  "sha256": "89ebf4331b176e6801b2108321d4b4a522764de09628236f382d145e56e8f25c",
   "releaseNotes": [
-    "Fixes a false live-text interruption when an empty editor drops its initial paragraph marker.",
-    "Adds local session timings and numeric insertion traces, without logging dictated words, clipboard contents or audio.",
-    "Faster previews update only the changed tail; Apple Terminal uses agreeing-word appends.",
-    "Recover the last 10 non-secure dictations from the island; history clears when Saylo quits.",
-    "Result cards fade after four seconds, pause on hover, and dismiss after a dispatched Paste."
+    "Integrated live editor continuity, safer Terminal delivery, recent dictations and numeric local diagnostics.",
+    "Prepares future subscription management; this beta remains free and uncapped.",
+    "Locally signed, unnotarized beta for controlled testing."
   ],
-  "releaseURL": "https://github.com/marloostudio/saylo-releases/releases/tag/v0.4.4-beta",
+  "releaseURL": "https://github.com/marloostudio/saylo-releases/releases/tag/v0.4.5-beta",
   "channel": "beta",
   "updateTestDownloadURL": "https://github.com/marloostudio/saylo-releases/releases/download/v0.4.3-beta/Saylo-update-test-0.4.2-7.dmg"
 }

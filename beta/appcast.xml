@@ -3,13 +3,21 @@
     <channel>
         <title>Saylo</title>
         <item>
-            <title>0.4.4</title>
-            <pubDate>Mon, 26 Oct 2026 15:52:50 -0400</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.4.4</sparkle:shortVersionString>
+            <title>0.4.5</title>
+            <pubDate>Mon, 26 Oct 2026 17:00:24 -0400</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.4.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Saylo 0.4.4
+            <description sparkle:format="markdown"><![CDATA[# Saylo 0.4.5
+
+## Integrated beta
+- Includes the live editor continuity fixes, safer Terminal delivery, local diagnostic traces and recent-dictation recovery from the latest beta series.
+- Prepares optional future subscription management. This beta remains free and uncapped; billing is not enabled.
+- Updates developer and distribution information for the Saylo website.
+- This remains a locally signed, unnotarized beta for controlled testing.
+
+# Saylo 0.4.4
 
 ## Live editor continuity
 - Accept an empty editor’s paragraph marker disappearing after the first paste, only when the full inserted draft and caret match exactly. This prevents a false read-back mismatch from stopping the next words.
@@ -111,7 +119,7 @@
 ## Release status
 The updater requires a published HTTPS update feed, an update verification key, and signed release archives. Mac App Store builds use Apple's update mechanism instead.
 ]]></description>
-            <enclosure url="https://github.com/marloostudio/saylo-releases/releases/download/v0.4.4-beta/Saylo-0.4.4-9.zip" length="11105416" type="application/octet-stream" sparkle:edSignature="bcSJXrztBDF5kVdXCEgMKeLtdFTFk2HFx0ZD+JPR1JJ97QRtOsjiAukk/oodkmW5DOa51yWV4WFa1hKNXTAdCA=="/>
+            <enclosure url="https://github.com/marloostudio/saylo-releases/releases/download/v0.4.5-beta/Saylo-0.4.5-10.zip" length="11164674" type="application/octet-stream" sparkle:edSignature="5CxRGAX4mKXWiyTabsTlq5tpPyX791tmIfyPLpubNOhTqJTCH/CAPY25R+q9iV/7DR7EY0p2zyomA5R3CCDVAg=="/>
         </item>
     </channel>
 </rss>
