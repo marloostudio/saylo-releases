@@ -1,0 +1,18 @@
+{
+  "version": "0.4.3",
+  "build": 8,
+  "publishedAt": "2026-10-26T19:37:15Z",
+  "downloadURL": "https://github.com/marloostudio/saylo-releases/releases/download/v0.4.3-beta/Saylo-0.4.3-8.dmg",
+  "sizeBytes": 11029224,
+  "sha256": "7aa19a967834bc9fea4bb2631f974ce312af6b840c9e0b66283f165a952ad701",
+  "releaseNotes": [
+    "Faster live previews update the changed tail instead of selecting the whole draft.",
+    "Apple Terminal receives agreeing words through a separate append-only path.",
+    "Recover the last 10 non-secure dictations from the screen-edge island; history clears when Saylo quits.",
+    "Result cards fade after four seconds, pause on hover, and dismiss after a dispatched Paste.",
+    "Signed beta update from 0.4.2 (build 7) to 0.4.3 (build 8) is available for testing."
+  ],
+  "releaseURL": "https://github.com/marloostudio/saylo-releases/releases/tag/v0.4.3-beta",
+  "channel": "beta",
+  "updateTestDownloadURL": "https://github.com/marloostudio/saylo-releases/releases/download/v0.4.3-beta/Saylo-update-test-0.4.2-7.dmg"
+}

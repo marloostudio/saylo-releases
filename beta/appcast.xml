@@ -1,0 +1,106 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Saylo</title>
+        <item>
+            <title>0.4.3</title>
+            <pubDate>Mon, 26 Oct 2026 15:35:50 -0400</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Saylo 0.4.3
+
+## Beta update validation
+- Publishes the signed beta update offered to the 0.4.2 installer so you can test Check for Updates, download, installation and relaunch.
+- Includes the live dictation, recent-result recovery and quieter interface improvements from 0.4.2.
+- This remains a locally signed, unnotarized beta. The receiving apps and actual update installation require manual verification.
+
+# Saylo 0.4.2
+
+## Live dictation
+- Growing previews append only the new suffix; revisions replace only the changed tail.
+- Faster adaptive preview scheduling avoids adding a full pause after each recognition pass.
+- Apple Terminal uses a separate append-only path for words agreed across partial results. It never selects or erases terminal screen contents or submits a command.
+- Typing, clicking, changing focus or secure input stops terminal delivery; conflicting final wording remains available for recovery.
+- Empty editor hints are excluded only when Accessibility confirms zero document characters. New count-only diagnostics help investigate custom editors.
+
+## Recovering your words
+- Click the screen-edge island or use Recent Dictations in the menu bar to recover the last 10 results, with Copy and Paste.
+- Recent dictations stay in memory for this session and clear when Saylo quits. Secure input is excluded.
+- Result cards count down for four seconds and fade away; hovering or a failed paste pauses dismissal.
+- Paste dismisses the card after the native shortcut is posted. The result stays recoverable even if the receiving app cannot confirm delivery.
+- The newest-word marker is quieter and does not blink for every partial result.
+
+## Signed beta updates
+- Direct-download builds include a public HTTPS beta feed and an Ed25519 update verification key.
+- Automatic checks remain optional and off by default; source code stays in the private repository.
+- This is a locally signed, unnotarized beta for testing. Native ChatGPT and terminal delivery still need testing on the receiving app.
+
+# Saylo 0.4.1
+
+## Installer
+- Show the bundle assembly time in Toronto time, including the correct EDT or EST abbreviation.
+- Timestamp the bundle after compilation so the installer does not show the start of a long build.
+- Refresh the app, disk image and launch-preparation package together for local testing.
+
+# Saylo 0.4.0
+
+## Improved dictation
+- Live drafts use native paste events and wait for asynchronous editor read-back.
+- Final wording waits for an in-flight preview, avoiding duplicated draft text on key release.
+- Focus lookup also queries the frontmost app directly when system-wide focus is unavailable.
+- Only one Saylo recording session can run at a time.
+
+## Learning from edits
+- User edits stop live replacement so corrected text is preserved.
+- Corrections to live drafts, completed dictation and manually pasted results can be learned in supported fields.
+- A correction becomes automatic after three confirmations and at least a 75% majority over alternatives.
+- Learned words stay local; the speech model is not retrained and no text is uploaded.
+
+## Reliability and interface
+- Dictation waits until the speech model is loaded; failed loading offers a retry from the menu bar.
+- Recovery cards stay available, scroll long text, and remain open when paste cannot be confirmed.
+- Show Last Result recovers the latest non-secure result from memory.
+
+## Branding and privacy
+- All current project branding, identifiers and active storage use Saylo.
+- About and Settings include Marloo Creative Studio and info@marloo.net.
+- Correction logs contain counts, never the corrected words.
+- Preview and final pastes preserve the original clipboard even when they overlap.
+
+# Saylo 0.3.1
+
+## Fixed
+- Recheck permission status immediately when returning from System Settings, with a manual Check Again action.
+- Explain enabled-but-ineffective permission entries for temporary signed previews, with quit/reopen guidance.
+- Match the Accessibility guide to macOS 27's Device Control and Data Access section.
+- Prevent normal DMG packaging from creating an ad-hoc installer that can lose permission identity across rebuilds.
+
+## Diagnostics
+- Include the running app's signature type in startup logs and exported reports.
+
+# Saylo 0.3.0
+
+## Added
+- Check for Updates from the menu bar and Settings in configured direct-download builds.
+- Optional automatic update checks. Installation asks for your confirmation.
+- Version and build numbers, release notes, and diagnostic export in Settings.
+- Clear drag-to-Applications instructions, version and EST release timestamp in the disk image.
+- Permission rechecks and recovery guidance for macOS switches that are enabled but not effective for this build.
+- Focus and delivery diagnostics to help investigate chat fields that do not accept dictation.
+
+## Improved
+- Applied Saylo branding across the application and release tools.
+- Live-text diagnostics distinguish focus, caret, text, and write failures.
+- Paste logs distinguish a sent keyboard shortcut from confirmed delivery.
+- Simulation logs record character counts instead of text.
+- Normal DMG packaging rejects ad-hoc builds; local previews are explicitly named to distinguish them from stable installers.
+
+## Release status
+The updater requires a published HTTPS update feed, an update verification key, and signed release archives. Mac App Store builds use Apple's update mechanism instead.
+]]></description>
+            <enclosure url="https://github.com/marloostudio/saylo-releases/releases/download/v0.4.3-beta/Saylo-0.4.3-8.zip" length="11092458" type="application/octet-stream" sparkle:edSignature="99Osu9TKepAU6HqqhUrM6b/Y3oWKSI/+rbyXw8vg5nOM8bW7N9dVa2RY9l5NALF5Gh4/Ihen9NQx4k4OR5KTDQ=="/>
+        </item>
+    </channel>
+</rss>
