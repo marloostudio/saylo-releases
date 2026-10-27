@@ -3,13 +3,21 @@
     <channel>
         <title>Saylo</title>
         <item>
-            <title>0.4.6</title>
-            <pubDate>Mon, 26 Oct 2026 20:30:28 -0400</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>0.4.6</sparkle:shortVersionString>
+            <title>0.4.7</title>
+            <pubDate>Mon, 26 Oct 2026 20:38:42 -0400</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.4.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Saylo 0.4.6
+            <description sparkle:format="markdown"><![CDATA[# Saylo 0.4.7
+
+## Integrated beta
+- Includes the reviewed microphone, per-app delivery, local formatting, vocabulary, appearance and recent-dictation recovery improvements.
+- Prepares safer subscription activation recovery when a future paid release enables licensing.
+- This public beta remains free and uncapped, with licensing disabled.
+- Locally signed and unnotarized; no installation or permissions are changed automatically.
+
+# Saylo 0.4.6
 
 ## Interface
 - The live status overlay can sit on the MacBook camera island, and floating chrome follows Auto, Light or Dark.
@@ -130,7 +138,7 @@
 ## Release status
 The updater requires a published HTTPS update feed, an update verification key, and signed release archives. Mac App Store builds use Apple's update mechanism instead.
 ]]></description>
-            <enclosure url="https://github.com/marloostudio/saylo-releases/releases/download/v0.4.6-beta/Saylo-0.4.6-11.zip" length="11515050" type="application/octet-stream" sparkle:edSignature="oDjnsqa5pnHuYC5bBz9fOSzr1hO9QQqMXEmkoAuJTYyVFKIxK6uBWMAkD46Psh628H3WbNmdmQu9FAZkmbuRDw=="/>
+            <enclosure url="https://github.com/marloostudio/saylo-releases/releases/download/v0.4.7-beta/Saylo-0.4.7-12.zip" length="11531689" type="application/octet-stream" sparkle:edSignature="t97ZfvTZPRrPVOO7HiYi9oFhAA78Xf8Gd/25SyoSjZZ7IWvfD/hdItWCAxvDXmpLuo5Zp3Ifr9BQhvSfMRidAg=="/>
         </item>
     </channel>
 </rss>
