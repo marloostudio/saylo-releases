@@ -1,16 +1,16 @@
 {
-  "version": "0.4.8",
-  "build": 13,
-  "publishedAt": "2026-10-27T21:36:07Z",
-  "downloadURL": "https://github.com/marloostudio/saylo-releases/releases/download/v0.4.8-beta/Saylo.dmg",
-  "sizeBytes": 11351287,
-  "sha256": "316b419ca5906f1612efddf2b42464b265445a0ad0f6fff8c4222dcbde2785f3",
+  "version": "0.4.9",
+  "build": 14,
+  "publishedAt": "2026-10-27T21:52:29Z",
+  "downloadURL": "https://github.com/marloostudio/saylo-releases/releases/download/v0.4.9-beta/Saylo.dmg",
+  "sizeBytes": 11362315,
+  "sha256": "a5a0daa412d41702bfc3e31214fd3b8a235fe3afd2be1a764daec17d04113519",
   "releaseNotes": [
-    "Command-Return pastes from the visible result card without submitting the chat.",
-    "Readable fields verify paste receipt; local diagnostics distinguish dispatched, confirmed and unverified pastes without recording your words.",
-    "Free, uncapped, locally signed and unnotarized beta. ChatGPT receiving-app verification remains a manual test."
+    "Codex now receives one automatic paste when dictation ends, without Command-Return, when the same window remains active and no input or focus changes were observed.",
+    "The Codex compatibility path keeps the final text on the clipboard and does not live-edit or learn from an unreadable field. Other apps retain their field-pinning rules.",
+    "Free, uncapped, locally signed and unnotarized beta. Codex paste receipt remains unverified through Accessibility."
   ],
-  "releaseURL": "https://github.com/marloostudio/saylo-releases/releases/tag/v0.4.8-beta",
+  "releaseURL": "https://github.com/marloostudio/saylo-releases/releases/tag/v0.4.9-beta",
   "channel": "beta",
   "updateTestDownloadURL": "https://github.com/marloostudio/saylo-releases/releases/download/v0.4.3-beta/Saylo-update-test-0.4.2-7.dmg"
 }
